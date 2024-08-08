@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e0e0e0;
+  }
+  
+  .create-user-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .create-main-content {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .alert {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .heades {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+  }
+  
+  /* CreateUser.css */
+
+/* CreateUser.css */
+
+.container {
+  overflow: auto; /* Allows scrolling if content overflows */
+  height: 100vh; /* Ensures the container takes the full viewport height */
+}
+
+.form-wrapper {
+  padding: 3rem;
+  max-width: 600px;
+  margin: 0 auto;
+  min-height: 80vh; /* Ensures the form has enough height */
+}
+
